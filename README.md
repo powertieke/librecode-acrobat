@@ -10,7 +10,7 @@ Paste JavaScript from files 'code128encoder.js' and 'fontmap.js' into separate s
 Encode strings in javascript:
 
 ```javascript
-  var barcodestring = code128encoder("String to be encoded: 2992988");
+  var barcodestring = code128Encoder.encode("String to be encoded: 2992988");
   // Will generate string "ÌStringÂtoÂbeÂencoded:ÂÇ=|ÆÈ8oÎ".
   // If displayed with Libre Barcode128 font should be readable by scanner.
 ```
